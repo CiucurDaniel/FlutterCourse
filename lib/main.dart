@@ -1,4 +1,4 @@
-import 'package:Proiecte_Android_Flutter/currency_converter.dart';
+import 'file:///D:/Android/Proiecte_Android_Flutter/lib/Homework_1_CurrencyConverter/currency_converter.dart';
 import 'package:flutter/material.dart';
 
 void main() {

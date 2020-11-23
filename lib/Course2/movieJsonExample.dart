@@ -38,6 +38,7 @@ Future<void> main() async {
   //String firstMovie = await response['data']['movies'][0]['title'];
 
   movieList.forEach(print);
+
 }
 
 

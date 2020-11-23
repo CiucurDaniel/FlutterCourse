@@ -35,7 +35,7 @@ class _HomePageState extends State<HomePage> {
   double amount =0; // the amount the user want to convert
   String convertedAmount = ''; // the amount value after the conversion
 
-  final myController =
+  final TextEditingController myController =
       TextEditingController(); // use it to retrieve the current value of the TextField.
 
   @override
@@ -49,21 +49,21 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Currency converter'),
+        title: const Text('Currency converter'),
       ),
       body: Padding(
-        padding: EdgeInsets.all(32.0),
+        padding: const EdgeInsets.all(32.0),
         child: Column(children: <Widget>[
           Image.network('https://picsum.photos/250?image=9'),
-          SizedBox(height: 20),
+          const SizedBox(height: 20),
           TextField(
             controller: myController,
             keyboardType: TextInputType.number,
-            decoration: InputDecoration(hintText: 'Enter the ammount of money'),
+            decoration: const InputDecoration(hintText: 'Enter the ammount of money'),
           ),
-          SizedBox(height: 20),
+          const SizedBox(height: 20),
           RaisedButton(
-              child: new Text('Convert'),
+              child: const Text('Convert'),
               onPressed: () {
                 exchangeEurToRon(double.parse(myController.text));
                 print('Button pressed');
@@ -71,12 +71,12 @@ class _HomePageState extends State<HomePage> {
                     print('result is ' + exchangeEurToRon(double.parse(myController.text)) );
                 }
               }),
-          SizedBox(height: 20),
+          const SizedBox(height: 20),
           Text(
             '$convertedAmount LEI',
             textAlign: TextAlign.center,
             overflow: TextOverflow.ellipsis,
-            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 42),
+            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 42),
           )
         ]),
       ),
@@ -86,7 +86,7 @@ class _HomePageState extends State<HomePage> {
   // method used to convert the input (LEI currency) to EURO
   String exchangeEurToRon(double amount) {
     setState(() {
-      double calculation = amount / 4.75;
+      final double calculation = amount / 4.75;
       convertedAmount = calculation.toStringAsFixed(3);
 
       print(convertedAmount);

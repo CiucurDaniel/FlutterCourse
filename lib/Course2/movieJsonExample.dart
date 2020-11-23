@@ -2,6 +2,17 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:meta/meta.dart';
 
+
+/*
+During Course 2 we learned how to make a HTTP GET Request with Flutter
+and later on also how to make a Model class
+
+We made a request from yts.mx which does not require an api key
+
+To run this you need to create a "Run/Debug configuration in IntelliJ IDEA
+with Dart console application and select this file which as you can see has the main method
+ */
+
 Future<void> main() async {
   // perform http get
   final http.Response response =

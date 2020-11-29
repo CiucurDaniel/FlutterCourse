@@ -1,11 +1,13 @@
 import 'file:///D:/Android/Proiecte_Android_Flutter/lib/Homework_1_CurrencyConverter/currency_converter.dart';
 import 'package:Proiecte_Android_Flutter/Homework_2_MoreApps/guess_my_number.dart';
+import 'package:Proiecte_Android_Flutter/Homework_2_MoreApps/square_triangular_numbers.dart';
 import 'package:flutter/material.dart';
 
 void main() {
   //runApp(MyApp());
   //runApp(CurrencyConverter());
-  runApp(MyGuessingApp());
+  //runApp(MyGuessingApp());
+  runApp(MyNumberCheckingApp());
 }
 
 

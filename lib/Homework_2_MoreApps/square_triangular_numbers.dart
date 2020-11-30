@@ -10,6 +10,7 @@ Homework 2 Google Programmers Hub - Flutter Course
 Description: The following is a simple app where the user
 will give a number and the app will tell if the number is square triangular or both.
 
+
  */
 class MyNumberCheckingApp extends StatelessWidget {
   @override

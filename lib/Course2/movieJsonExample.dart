@@ -2,7 +2,6 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:meta/meta.dart';
 
-
 /*
 During Course 2 we learned how to make a HTTP GET Request with Flutter
 and later on also how to make a Model class
@@ -16,7 +15,7 @@ with Dart console application and select this file which as you can see has the 
 Future<void> main() async {
   // perform http get
   final http.Response response =
-  await http.get('https://yts.mx/api/v2/list_movies.json');
+      await http.get('https://yts.mx/api/v2/list_movies.json');
 
   //response.body e type string si atunci folosim jsonDecode sa il facem json
   final Map<String, dynamic> responseMap = jsonDecode(response.body);
@@ -29,7 +28,7 @@ Future<void> main() async {
 
   final List<Movie> movieList = <Movie>[];
 
-  for( int i = 0 ; i < movies.length; i++){
+  for (int i = 0; i < movies.length; i++) {
     final Map<String, dynamic> item = movies[i];
 
     final Movie movie = Movie(
@@ -49,20 +48,17 @@ Future<void> main() async {
   //String firstMovie = await response['data']['movies'][0]['title'];
 
   movieList.forEach(print);
-
 }
-
 
 // Movie model
 
 class Movie {
-  Movie({
-    @required this.id,
-    @required this.title,
-    @required this.year,
-    @required this.runtime,
-    @required this.cover
-  });
+  Movie(
+      {@required this.id,
+      @required this.title,
+      @required this.year,
+      @required this.runtime,
+      @required this.cover});
 
   final int id;
   final String title;
@@ -71,7 +67,7 @@ class Movie {
   final String cover;
 
   @override
-  String toString(){
+  String toString() {
     return 'Movie: $title, year: $year, runtime: $runtime, $cover';
   }
 }

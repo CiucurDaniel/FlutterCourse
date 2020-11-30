@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-
 /*
 
 Homework 1 Google Programmers Hub - Flutter Course
@@ -32,7 +31,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  double amount =0; // the amount the user want to convert
+  double amount = 0; // the amount the user want to convert
   String convertedAmount = ''; // the amount value after the conversion
 
   final TextEditingController myController =
@@ -59,7 +58,8 @@ class _HomePageState extends State<HomePage> {
           TextField(
             controller: myController,
             keyboardType: TextInputType.number,
-            decoration: const InputDecoration(hintText: 'Enter the ammount of money'),
+            decoration:
+                const InputDecoration(hintText: 'Enter the ammount of money'),
           ),
           const SizedBox(height: 20),
           RaisedButton(
@@ -67,8 +67,9 @@ class _HomePageState extends State<HomePage> {
               onPressed: () {
                 exchangeEurToRon(double.parse(myController.text));
                 print('Button pressed');
-                if(exchangeEurToRon(double.parse(myController.text)) != null){
-                    print('result is ' + exchangeEurToRon(double.parse(myController.text)) );
+                if (exchangeEurToRon(double.parse(myController.text)) != null) {
+                  print('result is ' +
+                      exchangeEurToRon(double.parse(myController.text)));
                 }
               }),
           const SizedBox(height: 20),

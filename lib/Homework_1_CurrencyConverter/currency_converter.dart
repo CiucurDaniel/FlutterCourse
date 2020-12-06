@@ -58,7 +58,8 @@ class _HomePageState extends State<HomePage> {
           TextField(
             controller: myController,
             keyboardType: TextInputType.number,
-            decoration: const InputDecoration(hintText: 'Enter the ammount of money'),
+            decoration:
+                const InputDecoration(hintText: 'Enter the ammount of money'),
           ),
           const SizedBox(height: 20),
           RaisedButton(
@@ -67,7 +68,8 @@ class _HomePageState extends State<HomePage> {
                 exchangeEurToRon(double.parse(myController.text));
                 print('Button pressed');
                 if (exchangeEurToRon(double.parse(myController.text)) != null) {
-                  print('result is ' + exchangeEurToRon(double.parse(myController.text)));
+                  print('result is ' +
+                      exchangeEurToRon(double.parse(myController.text)));
                 }
               }),
           const SizedBox(height: 20),

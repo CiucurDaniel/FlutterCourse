@@ -14,8 +14,7 @@ with Dart console application and select this file which as you can see has the 
 
 Future<void> main() async {
   // perform http get
-  final http.Response response =
-      await http.get('https://yts.mx/api/v2/list_movies.json');
+  final http.Response response = await http.get('https://yts.mx/api/v2/list_movies.json');
 
   //response.body e type string si atunci folosim jsonDecode sa il facem json
   final Map<String, dynamic> responseMap = jsonDecode(response.body);
@@ -53,12 +52,7 @@ Future<void> main() async {
 // Movie model
 
 class Movie {
-  Movie(
-      {@required this.id,
-      @required this.title,
-      @required this.year,
-      @required this.runtime,
-      @required this.cover});
+  Movie({@required this.id, @required this.title, @required this.year, @required this.runtime, @required this.cover});
 
   final int id;
   final String title;

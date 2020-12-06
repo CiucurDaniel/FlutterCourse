@@ -74,8 +74,8 @@ class _HomePageState extends State<HomePage> {
         onPressed: () {
           setState(() {
             dialogTitleText = myController.text; // set the number as the title
-            dialogContentText =
-                _evaluateInputNumber(int.parse(myController.text)); //convert input to type int and evaluate it
+            dialogContentText = _evaluateInputNumber(int.parse(
+                myController.text)); //convert input to type int and evaluate it
             _showMyDialog();
           });
         },

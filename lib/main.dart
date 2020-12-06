@@ -1,13 +1,15 @@
 //import 'file:///D:/Android/Proiecte_Android_Flutter/lib/Homework_1_CurrencyConverter/currency_converter.dart';
 //import 'package:Proiecte_Android_Flutter/Homework_2_MoreApps/guess_my_number.dart';
-import 'package:Proiecte_Android_Flutter/Homework_2_MoreApps/square_triangular_numbers.dart';
+//import 'package:Proiecte_Android_Flutter/Homework_2_MoreApps/square_triangular_numbers.dart';
+import 'package:Proiecte_Android_Flutter/homework_3_apps/tic_tac_toe.dart';
 import 'package:flutter/material.dart';
 
 void main() {
   //runApp(MyApp());
   //runApp(CurrencyConverter());
   //runApp(MyGuessingApp());
-  runApp(MyNumberCheckingApp());
+  //runApp(MyNumberCheckingApp());
+  runApp(TicTacToeApp());
 }
 
 class MyApp extends StatelessWidget {

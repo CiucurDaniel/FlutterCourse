@@ -88,7 +88,8 @@ class _MyHomePageState extends State<MyHomePage> {
                             child: const Text('Guess'),
                             onPressed: () {
                               setState(() {
-                                statusText = evaluateGuess(int.parse(guessedNumberController.text));
+                                statusText = evaluateGuess(
+                                    int.parse(guessedNumberController.text));
                               });
                             }),
                       ],

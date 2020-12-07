@@ -13,9 +13,11 @@ dependencies:
   flutter:
     sdk: flutter
 
+  audioplayers: any
+
 
   cupertino_icons: ^1.0.0
-  http : ^0.12.2
+  http: ^0.12.2
 
 dev_dependencies:
   flutter_test:
@@ -23,6 +25,15 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
+  assets:
+    - assets/audio/0_salut_romana.mp3
+    - assets/audio/1_salut_germana.mp3
+    - assets/audio/2_maNumesc_romana.mp3
+    - assets/audio/3_maNumesc_germana.mp3
+    - assets/audio/4_cumEsti_romana.mp3
+    - assets/audio/5_cumEsti_germana.mp3
+    - assets/audio/6_suntBine_romana.mp3
+    - assets/audio/7_suntBine_germana.mp3
 
 
   uses-material-design: true

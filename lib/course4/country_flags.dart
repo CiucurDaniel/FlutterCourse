@@ -23,11 +23,13 @@ class _MyHomePageState extends State<MyHomePage> {
 
   Future<void> _getDataFromWeb() async {
     print('REACHED FUNCTION');
-    final Response response = await get('https://www.worldometers.info/geography/flags-of-the-world/');
+    final Response response = await get(
+        'https://www.worldometers.info/geography/flags-of-the-world/');
 
     final String data = response.body;
 
-    final List<String> parts = data.split('<a href="/img/flags/').skip(1).toList();
+    final List<String> parts =
+    data.split('<a href="/img/flags/').skip(1).toList();
     for (final String part in parts) {
       // name
       print(part.split('10px">')[1].split('<')[0]);
@@ -64,16 +66,23 @@ class _MyHomePageState extends State<MyHomePage> {
           return Card(
             color: Colors.blue,
             margin: const EdgeInsets.all(8.0),
-            child: Column(children: <Widget>[
-              Expanded(
-                child: Image.network(flags[index]),
+            child: Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Column(
+                children: <Widget>[
+                  Expanded(
+                    child: AspectRatio(
+                      aspectRatio: 3 / 2,
+                      child: Image.network(
+                        flags[index],
+                        fit: BoxFit.fill,
+                      ),
+                    ),
+                  ),
+                  Expanded(child: Center(child: Text('${countryNames[index]}')))
+                ],
               ),
-              Expanded(
-                child: Center(
-                  child: Text('${countryNames[index]}'),
-                ),
-              )
-            ]),
+            ),
           );
         }),
       ),

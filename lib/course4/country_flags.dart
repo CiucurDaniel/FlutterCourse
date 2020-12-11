@@ -23,13 +23,11 @@ class _MyHomePageState extends State<MyHomePage> {
 
   Future<void> _getDataFromWeb() async {
     print('REACHED FUNCTION');
-    final Response response = await get(
-        'https://www.worldometers.info/geography/flags-of-the-world/');
+    final Response response = await get('https://www.worldometers.info/geography/flags-of-the-world/');
 
     final String data = response.body;
 
-    final List<String> parts =
-        data.split('<a href="/img/flags/').skip(1).toList();
+    final List<String> parts = data.split('<a href="/img/flags/').skip(1).toList();
     for (final String part in parts) {
       // name
       print(part.split('10px">')[1].split('<')[0]);

@@ -1,10 +1,8 @@
 # Proiecte_Android_Flutter
 
-A new Flutter project. This is the demo project for Google Programming Hub Flutter Course 1.
+A new Flutter project. This is the project used for Google Programming Hub Flutter Course.
 
 ## Getting Started
-
-This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
 
@@ -14,3 +12,26 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+<h1>Flutter Course</h1>
+<p>This repository is used for Flutter Course from Google Programmers Hub. It will contain exercises from the course as well as homeworks</p>
+
+<h2>Content<h2>
+  
+  <ul>
+  <li>Course 2 - <a href="https://github.com/CiucurDaniel/FlutterCourse/blob/master/lib/Course2/movieJsonExample.dart">Movie JSON Example</a></li>
+   <li>Course 4 - <a href="https://github.com/CiucurDaniel/FlutterCourse/blob/master/lib/course4/country_flags.dart">Country Flags app</a></li>
+   <li></li>
+   <li></li>
+  </ul>
+  
+  <h4>Course 2</h4>
+  <p>During Course 2 we learned how to make a HTTP GET Request with Flutter
+and later on also how to make a Model class
+
+We made a request from yts.mx which does not require an api key
+
+To run this you need to create a "Run/Debug configuration in IntelliJ IDEA
+with Dart console application and select this file which as you can see has the main method</p>
+  <h4>Course 4</h4>
+  <p>During course 4 we learned some methods for String manipulation in Dart. After that we used the aquired skill in order to scrap information fram an HTTP Request from <a href="https://www.worldometers.info">Worldometers website</a> and create a GridView with countries flags and name. For this we had to take the body from the HTTP request and extract the information we needed</p>

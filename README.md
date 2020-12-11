@@ -19,8 +19,8 @@ samples, guidance on mobile development, and a full API reference.
 <h2>Content<h2>
   
   <ul>
-   <li>Course 2 - Movie JSON Example</li>
-   <li>Course 4 - Country Flags app</li>
+  <li>Course 2 - <a href="https://github.com/CiucurDaniel/FlutterCourse/blob/master/lib/Course2/movieJsonExample.dart">Movie JSON Example</a></li>
+   <li>Course 4 - <a href="https://github.com/CiucurDaniel/FlutterCourse/blob/master/lib/course4/country_flags.dart">Country Flags app</a></li>
    <li></li>
    <li></li>
   </ul>
@@ -34,4 +34,4 @@ We made a request from yts.mx which does not require an api key
 To run this you need to create a "Run/Debug configuration in IntelliJ IDEA
 with Dart console application and select this file which as you can see has the main method</p>
   <h4>Course 4</h4>
-  <p>During course 4 we learned some methods for String manipulation in Dart. After that we used the aquired skill in order to scrap information fram an HTTP Request from https://www.worldometers.info and create a GridView with countries flags and name. For this we had to take the body from the HTTP request and extract the information we needed</p>
+  <p>During course 4 we learned some methods for String manipulation in Dart. After that we used the aquired skill in order to scrap information fram an HTTP Request from <a href="https://www.worldometers.info">Worldometers website</a> and create a GridView with countries flags and name. For this we had to take the body from the HTTP request and extract the information we needed</p>

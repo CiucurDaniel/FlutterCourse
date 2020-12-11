@@ -29,7 +29,7 @@ class _MyHomePageState extends State<MyHomePage> {
     final String data = response.body;
 
     final List<String> parts =
-    data.split('<a href="/img/flags/').skip(1).toList();
+        data.split('<a href="/img/flags/').skip(1).toList();
     for (final String part in parts) {
       // name
       print(part.split('10px">')[1].split('<')[0]);

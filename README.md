@@ -42,7 +42,7 @@ with Dart console application and select this file which as you can see has the 
    <h4>Homework 2 - Square triangular numbers</h4>
   <p>Description: Square triangular numbers is an app checks if a number is square triangular or both</p>
   
-    <h4>Homework 3 - Tic Tac Toe</h4>
+   <h4>Homework 3 - Tic Tac Toe</h4>
   <p>Description: Tic Tac Toe game implmented in Flutter using GridView and InkWell for detection taps on tiles.</p>
 
 ## Getting Started

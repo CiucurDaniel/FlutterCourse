@@ -3,10 +3,14 @@
 //import 'package:Proiecte_Android_Flutter/Homework_2_MoreApps/square_triangular_numbers.dart';
 //import 'package:Proiecte_Android_Flutter/homework_3_apps/tic_tac_toe.dart';
 //import 'package:Proiecte_Android_Flutter/homework_3_apps/translate_app.dart';
-import 'package:Proiecte_Android_Flutter/course4/country_flags.dart';
+//import 'package:Proiecte_Android_Flutter/course4/country_flags.dart';
+import 'package:Proiecte_Android_Flutter/homework_5/movie_app.dart';
 
 import 'package:flutter/material.dart';
 
+/*
+To run simply uncomment the desired app and it's import from above
+ */
 void main() {
   //runApp(MyApp());
   //runApp(CurrencyConverter());
@@ -14,7 +18,8 @@ void main() {
   //runApp(MyNumberCheckingApp());
   //runApp(TicTacToeApp());
   //runApp(TranslateApp());
-  runApp(CountryFlagsApp());
+  //runApp(CountryFlagsApp());
+  runApp(MovieApp());
 }
 
 class MyApp extends StatelessWidget {

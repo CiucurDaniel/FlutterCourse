@@ -5,11 +5,16 @@
 <h2>Content<h2>
   
   <ul>
-  <li>Course 2 - <a href="https://github.com/CiucurDaniel/FlutterCourse/blob/master/lib/Course2/movieJsonExample.dart">Movie JSON Example</a></li>
+   <li>Course 2 - <a href="https://github.com/CiucurDaniel/FlutterCourse/blob/master/lib/Course2/movieJsonExample.dart">Movie JSON Example</a></li>
+   <li>Course 3 - ... </li>
    <li>Course 4 - <a href="https://github.com/CiucurDaniel/FlutterCourse/blob/master/lib/course4/country_flags.dart">Country Flags app</a></li>
-   <li></li>
+   <li>Course 5 - Redux state management</li>
+   <li>Course 6 - Freezed </li>
    <li></li>
   </ul>
+  
+  <h4>Course 1</h4>
+  <p>Course 1 was simply an introduction to Flutter with some quick code demos and a presentations of the advantages and features of Flutter.</p>
   
   <h4>Course 2</h4>
   <p>During Course 2 we learned how to make a HTTP GET Request with Flutter
@@ -44,6 +49,9 @@ with Dart console application and select this file which as you can see has the 
   
    <h4>Homework 3 - Tic Tac Toe</h4>
   <p>Description: Tic Tac Toe game implmented in Flutter using GridView and InkWell for detection taps on tiles.</p>
+  
+  <h4>Homework 3 - Translate app</h4>
+  <p>Description: Translate app has a grid of buttons with phrases like "hello" "how are you" and when tapped an audio spelling the phrase will play. The audio was from the assets folder.</p>
 
 ## Getting Started
 

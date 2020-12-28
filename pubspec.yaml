@@ -18,6 +18,8 @@ dependencies:
   built_value: ^7.1.0
   redux: ^4.0.0+3
   flutter_redux: ^0.7.0
+  built_collection: ^4.3.2
+  freezed_annotation: any
 
   cupertino_icons: ^1.0.0
   http: ^0.12.2
@@ -28,6 +30,8 @@ dev_dependencies:
 
   build_runner: '>=1.0.0 <2.0.0'
   built_value_generator: ^7.1.0
+  freezed: any
+  analyzer: any
 
 # The following section is specific to Flutter.
 flutter:

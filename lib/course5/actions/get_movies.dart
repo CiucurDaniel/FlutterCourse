@@ -13,4 +13,3 @@ abstract class GetMovies with _$GetMovies {
 
   const factory GetMovies.error(dynamic error) = GetMoviesError;
 }
-

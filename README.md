@@ -10,7 +10,7 @@
    <li>Course 4 - <a href="https://github.com/CiucurDaniel/FlutterCourse/blob/master/lib/course4/country_flags.dart">Country Flags app</a></li>
    <li>Course 5 - Redux state management</li>
    <li>Course 6 - Freezed </li>
-   <li></li>
+   <li>Course 7 - Epics and TypedReducers</li>
   </ul>
   
   <h4>Course 1</h4>

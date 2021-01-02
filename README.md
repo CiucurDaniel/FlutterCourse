@@ -1,6 +1,6 @@
 
 <h1>Flutter Course</h1>
-<p>This repository is used for Flutter Course from Google Programmers Hub. It will contain exercises from the course as well as homeworks</p>
+<p>This repository is used for Flutter Course from Google Programmers Hub. It will contain exercises from the course as well as homeworks. This serves as my first Flutter experience portofolio.</p>
 
 <h2>Content<h2>
   
@@ -17,7 +17,7 @@
   <p>Course 1 was simply an introduction to Flutter with some quick code demos and a presentations of the advantages and features of Flutter.</p>
   
   <h4>Course 2</h4>
-  <p>During Course 2 we learned how to make a HTTP GET Request with Flutter
+  <p>During Course 2 we learned how to make a `HTTP GET Request` with Flutter
 and later on also how to make a Model class
 
 We made a request from yts.mx which does not require an api key
@@ -26,6 +26,9 @@ To run this you need to create a "Run/Debug configuration in IntelliJ IDEA
 with Dart console application and select this file which as you can see has the main method</p>
   <h4>Course 4</h4>
   <p>During course 4 we learned some methods for String manipulation in Dart. After that we used the aquired skill in order to scrap information fram an HTTP Request from <a href="https://www.worldometers.info">Worldometers website</a> and create a GridView with countries flags and name. For this we had to take the body from the HTTP request and extract the information we needed</p>
+  
+  <h4>Course 6</h4>
+  <p>During course 6 we learned how to use `Freezed package` in order to `generate code for immutable objects`. Go to <a href="https://pub.dev/packages/freezed">Freezed package</a></p>
 
 <h2>Homeworks<h2>
   

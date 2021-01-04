@@ -1,3 +1,4 @@
+[![Build status:](https://github.com/CiucurDaniel/FlutterCourse/workflows/UpCode/badge.svg)](https://github.com/CiucurDaniel/FlutterCourse/actions)
 
 <h1>Flutter Course</h1>
 <p>This repository is used for Flutter Course from Google Programmers Hub. It will contain exercises from the course as well as homeworks. This serves as my first Flutter experience portofolio.</p>

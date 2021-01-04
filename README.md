@@ -55,21 +55,25 @@ with Dart console application and select this file which as you can see has the 
    * Homework 5 - [Movie Collection](https://github.com/CiucurDaniel/FlutterCourse/tree/master/lib/homework_5)
  
   
-  #### Homework 1 - Currency Converter
+  #### Homework 1 - **Currency Converter**
   
   Description: The following is a simple Currency Converter that converts EUR (input) to RON (output)
   
-   #### Homework 2 - Guess my number app
+   #### Homework 2 - **Guess my number app**
   <p>Description: The following is a simple Guess my number app that pick a random number and guides the user towards guessing it
   
-   #### Homework 2 - Square triangular numbers
+   #### Homework 2 - **Square triangular numbers**
   Description: Square triangular numbers is an app checks if a number is square triangular or both
   
-   #### Homework 3 - Tic Tac Toe
+   #### Homework 3 - **Tic Tac Toe**
   <p>Description: Tic Tac Toe game implmented in Flutter using GridView and InkWell for detection taps on tiles.
   
-  #### Homework 3 - Translate app
+  #### Homework 3 - **Translate app**
   Description: Translate app has a grid of buttons with phrases like "hello" "how are you" and when tapped an audio spelling the phrase will play. The audio was from the assets folder.
+  
+  ### Homework 5 - **Movie app**
+  
+  Description: Movie app has a screen with a list of movies fetched from yts.mx api. The user can tap on movie see the more details about it and he can sort the movies by rating, or sort them alphabetically.
   
   ## How to run
   
@@ -90,7 +94,7 @@ void main() {
     runApp(MovieApp());
 }
   ```
-  To run an app from the **courses** you simply go to that course folder and you will that each one has it's on `main.dart` file which you need to run. For example:
+  To run an app from the **courses** you simply go to that course folder and you will see that each one has it's on `main.dart` file which you need to run. For example:
   ```
   /lib/course5/main.dart
   ```

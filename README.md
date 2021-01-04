@@ -73,25 +73,29 @@ with Dart console application and select this file which as you can see has the 
   
   ## How to run
   
-  To run the apps from homeworks you simply need to go to `lib/main.dart` and from there you can simply uncomment the app you want to run.
+  To run the apps from **homeworks** you simply need to go to `lib/main.dart` and from there you can simply uncomment the app you want to run.
   
   ```dart
   /*
 To run simply uncomment the desired app and it's import from above
  */
 void main() {
-  //runApp(MyApp());
-  //runApp(CurrencyConverter());
-  //runApp(MyGuessingApp());
-  //runApp(MyNumberCheckingApp());
-  //runApp(TicTacToeApp());
-  //runApp(TranslateApp());
-  //runApp(CountryFlagsApp());
-  runApp(MovieApp());
+    //runApp(MyApp());
+    //runApp(CurrencyConverter());
+    //runApp(MyGuessingApp());
+    //runApp(MyNumberCheckingApp());
+    //runApp(TicTacToeApp());
+    //runApp(TranslateApp());
+    //runApp(CountryFlagsApp());
+    runApp(MovieApp());
 }
   ```
-  
+  To run an app from the **courses** you simply go to that course folder and you will that each one has it's on `main.dart` file which you need to run. For example:
+  ```
+  /lib/course5/main.dart
+  ```
   
  ## TODO:
  * [ ] add screenshoots of app 
  * [ ] rename some folders such that all respect lowerCamelCase format
+ * [ ] move all homework in a homeworks folder and all courses content in a folder

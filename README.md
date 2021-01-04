@@ -2,6 +2,7 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/CiucurDaniel/FlutterCourse/graphs/commit-activity)
 [![Made with](https://img.shields.io/badge/Made%20with-Flutter-blue)](https://flutter.dev/)
 
+![Flutter logo](https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png)
 ## Flutter Course
 
 This repository is used for Flutter Course from Google Programmers Hub. It will contain exercises from the course as well as homeworks. This serves as my first Flutter experience portofolio.

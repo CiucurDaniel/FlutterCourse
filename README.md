@@ -71,6 +71,25 @@ with Dart console application and select this file which as you can see has the 
   #### Homework 3 - Translate app
   Description: Translate app has a grid of buttons with phrases like "hello" "how are you" and when tapped an audio spelling the phrase will play. The audio was from the assets folder.
   
+  ## How to run
+  
+  To run the apps from homeworks you simply need to go to `lib/main.dart` and from there you can simply uncomment the app you want to run.
+  
+  ```dart
+  /*
+To run simply uncomment the desired app and it's import from above
+ */
+void main() {
+  //runApp(MyApp());
+  //runApp(CurrencyConverter());
+  //runApp(MyGuessingApp());
+  //runApp(MyNumberCheckingApp());
+  //runApp(TicTacToeApp());
+  //runApp(TranslateApp());
+  //runApp(CountryFlagsApp());
+  runApp(MovieApp());
+}
+  ```
   
   
  ## TODO:

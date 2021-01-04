@@ -16,11 +16,11 @@ This repository is used for Flutter Course from Google Programmers Hub. It will 
    * Course 6 - [Freezed](https://pub.dev/packages/freezed)
    * Course 7 - Epics and TypedReducers
   
-  # Course 1
+  #### Course 1
   
   Course 1 was simply an `introduction to Flutter` with some quick code demos and a presentations of the advantages and features of Flutter.
   
-  # Course 2
+  #### Course 2
   
   During Course 2 we learned how to make a `HTTP GET Request` with Flutter
 and later on also how to make a `Model class`
@@ -67,5 +67,5 @@ with Dart console application and select this file which as you can see has the 
   
   
  ## TODO:
- * add screenshoots of app 
- * rename some folders such that all respect lowerCamelCase format
+ * [ ] add screenshoots of app 
+ * [ ] rename some folders such that all respect lowerCamelCase format

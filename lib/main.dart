@@ -4,7 +4,7 @@
 //import 'package:Proiecte_Android_Flutter/homework_3_apps/tic_tac_toe.dart';
 //import 'package:Proiecte_Android_Flutter/homework_3_apps/translate_app.dart';
 //import 'package:Proiecte_Android_Flutter/course4/country_flags.dart';
-import 'package:Proiecte_Android_Flutter/homework_5/movie_app.dart';
+import 'package:Proiecte_Android_Flutter/homeworks/homework_5/movie_app.dart';
 
 import 'package:flutter/material.dart';
 
